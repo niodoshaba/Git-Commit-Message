@@ -20,16 +20,16 @@ type: subject 是簡述不要超過 50 個字元
 -----
   
 type 只允許使用以下類別：
-feat: 新增/修改功能 (feature)
-fix: 修補 bug (bug fix)
-docs: 文件 (documentation)
-style: 格式 (不影響程式碼運行的變動 white-space, formatting, missing semi colons, etc)
-refactor: 重構 (既不是新增功能，也不是修補 bug 的程式碼變動)
-perf: 改善效能 (A code change that improves performance)
-test: 增加測試 (when adding missing tests)
-chore: 建構程序或輔助工具的變動 (maintain)
-revert: 撤銷回覆先前的 commit 例如：revert: type(scope): subject (回覆版本：xxxx)
-  
+ feat: 新增/修改功能 (feature)
+ fix: 修補 bug (bug fix)
+ docs: 文件 (documentation)
+ style: 格式 (不影響程式碼運行的變動 white-space, formatting, missing semi colons, etc)
+ refactor: 重構 (既不是新增功能，也不是修補 bug 的程式碼變動)
+ perf: 改善效能 (A code change that improves performance)
+ test: 增加測試 (when adding missing tests)
+ chore: 建構程序或輔助工具的變動 (maintain)
+ revert: 撤銷回覆先前的 commit 例如：revert: type(scope): subject (回覆版本：xxxx)
+ 
 Type 是用來告訴進行 Code Review 的人應該以什麼態度來檢視 Commit 內容。
 例如：
 看到 Type 為 fix，進行 Code Review 的人就可以用「觀察 Commit 如何解決錯誤」的角度來閱讀程式碼。
